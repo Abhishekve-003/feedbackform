@@ -68,9 +68,12 @@ class FeedbackForm extends React.Component {
             
           </FormControl>
         ))}
-        <Button variant="contained" color="secondary" onClick={this.handleSubmit}>
+        
+        <div className='btn'>
+        <Button variant="contained" color="secondary" onClick={this.handleSubmit} >
           Submit
         </Button>
+        </div>
       </form>
     );
   }
