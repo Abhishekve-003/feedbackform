@@ -5,3 +5,15 @@
   .question{
     margin-left: 2.5rem;
   }
+.btn{
+  display: flex;
+  justify-content: center;
+  margin: 2.2rem;
+  }
+  @media screen and (max-width: 770px)  {
+   form{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+  
